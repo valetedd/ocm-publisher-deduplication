@@ -1,1 +1,1 @@
-# DHARC (Unibo) Internship
+# DHARC Internship (Unibo)
