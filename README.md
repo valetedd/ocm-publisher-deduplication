@@ -1,1 +1,1 @@
-# ocm-publisher-deduplication-
+# DHARC (Unibo) Internship
