@@ -95,7 +95,7 @@ def main() -> None:
 
     print(f"Start at: {datetime.now().strftime('%H:%M:%S')}")
 
-    process_func = partial(process_batch, PATH, column_name=COLUMN_NAME)
+    process_func = partial(process_batch, tar_path=PATH, column_name=COLUMN_NAME)
     
         
     for batch_id, batch in enumerate(batched_members(PATH, batch_size=BATCH_SIZE)):

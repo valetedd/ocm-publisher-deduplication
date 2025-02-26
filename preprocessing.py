@@ -8,7 +8,7 @@ from datetime import datetime
 
 def normalize(s: str):
     normalized_s = ucd.normalize("NFKC", s.strip().lower())
-    return "".join(c for c in normalized_s if not ucd.combining(c))
+    return "".join([c for c in normalized_s if not ucd.combining(c)])
 
 
 def process_row(row: tuple) -> tuple:
